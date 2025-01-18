@@ -1,0 +1,71 @@
+/* src/AppointmentForm.css */
+.Pathcontainer{
+  height: 85vh;
+  width: 100vw;
+  margin: 0;padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Pathform {
+  background-color: #27a8ee7f;  /* Slightly brighter white */
+  padding: 25px;
+  border-radius: 20px;  /* Slightly more rounded corners */
+  width: 100%;
+  height: 90%;
+  max-width: 450px;  /* A bit wider form */
+  border: none;
+}
+
+.form-group {
+  width: 90%;
+  margin-bottom: 20px;  /* Increased margin for better spacing */
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  text-align: left;
+}
+
+.input, .input:focus, .input:active {
+  width: 70%;
+  padding: 12px;  /* Increased padding for larger input fields */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px;  /* Slightly larger button */
+  background-color: #27a8ee7f;  /* A more vibrant blue for the submit button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  transform: scale(1.02);  /* Slightly enlarge the button on hover */
+}
+
+.submit-button:active {
+  transform: scale(1);  /* Reset scale on click */
+}
+
+h2 {
+  text-align: center;  /* Center the form title */
+  margin-bottom: 20px;
+  font-size: 24px;  /* Larger font size for better readability */
+}
+
+.form-group label {
+  font-weight: bold;  /* Make labels bold for emphasis */
+  display: block;
+  margin-bottom: 8px;
+  margin-right: 30px;
+  width: 50%;
+}

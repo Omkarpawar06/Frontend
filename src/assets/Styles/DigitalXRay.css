@@ -1,0 +1,49 @@
+.pathalogyContainer {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: calc(33.33% - 40px);
+}
+
+.category h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.test-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.test-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.test-list li:last-child {
+  border-bottom: none;
+}
+
+.test-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.category button{
+  background-color: #0a0d0a;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium';
+  color: #ccc;
+  text-align: center;
+}

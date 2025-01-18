@@ -1,0 +1,67 @@
+/* AdminList.css */
+
+.adminlist-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f7;
+  }
+  
+  .admin-list {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-list h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .admin-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .admin-list li {
+    background-color: #fafafa;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .admin-list li:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .admin-list li span {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .Toastify__toast-container {
+    width: auto;
+    text-align: center;
+  }
+  
+  .Toastify__toast--error {
+    background-color: #ff4d4f;
+    color: white;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,55 @@
+/* ECG.css */
+
+/* Container for the entire ECG section */
+.ECGContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5; /* Light grey background */
+    padding: 20px;
+}
+
+/* Styling for the ECG category box */
+.category {
+    background-color: #ffffff; /* White background for the content box */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Styling for the heading */
+.category h2 {
+    font-size: 2rem;
+    color: #007bff; /* Blue color for the title */
+    margin-bottom: 20px;
+}
+
+/* Styling for the text */
+.category p {
+    font-size: 1rem;
+    color: #333333; /* Dark grey color for the text */
+    line-height: 1.6;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .ECGContainer {
+        padding: 15px;
+    }
+
+    .category {
+        padding: 20px;
+        max-width: 100%;
+    }
+
+    .category h2 {
+        font-size: 1.5rem;
+    }
+
+    .category p {
+        font-size: 0.9rem;
+    }
+}

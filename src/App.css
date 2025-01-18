@@ -1,0 +1,227 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.nav-container {
+  max-width: 100%;
+  height: fit-content;
+  /* margin: 40px auto; */
+  /* padding: 20px; */
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+
+.header {
+  background-color: #27a8eec1;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo h1{
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.logo img {
+  width: 100px;
+  height: 40px;
+  border-radius: 40px 20px 40px 20px;
+}
+
+.logo:hover{
+  cursor: pointer;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav li button{
+  font-size: 18px;
+  padding: 5px 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  background-image:url('./assets/Images/img5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  color: black;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-content .btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.hero-content .btn:hover {
+  background-color: #444;
+}
+
+/* Services Section Styles */
+
+.services {
+  padding: 20px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.service {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* About Section Styles */
+
+.about {
+  padding: 20px;
+}
+
+.about-content {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+
+.contact {
+  padding: 20px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #b8c1ec;
+  border: 3px solid #2b6abd;
+  border-radius: 15px;
+  box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.contact-form .btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.contact-form .btn:hover {
+  background-color: #444;
+}
+
+/* Footer Styles */
+
+.footer {
+  background-color:#27a8eec1;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+.footer p {
+  padding: 20px;
+}

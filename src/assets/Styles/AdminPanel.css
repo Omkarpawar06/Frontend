@@ -1,0 +1,107 @@
+/* AdminPanel.css */
+
+.admin-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+/* Add Admin Form Container */
+.adminform-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 15px; /* Changed to slightly rounded corners */
+    background-color: #27a8ee7f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.addAdminForm {
+    width: 100%;
+    text-align: center;
+}
+
+.addAdminForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addAdminForm h1 {
+    margin-bottom: 20px;
+}
+
+.addAdminForm label {
+    margin-bottom: 5px;
+}
+
+.addAdminForm input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.addAdminForm button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addAdminForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Container for Admin List and Appointments */
+.admin-panel__double-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.admin-panel__rect-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px; /* Rectangle width */
+    height: 150px; /* Rectangle height */
+    margin: 0 10px;
+    border-radius: 15px; /* Slightly rounded corners */
+    background-color: #27a8ee7f;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.admin-panel__rect-container:hover {
+    transform: scale(1.05);
+}
+
+.adminlistbtn, .aappointmentbtn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.adminlistbtn:hover, .aappointmentbtn:hover {
+    background-color: #218838;
+}

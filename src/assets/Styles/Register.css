@@ -1,0 +1,113 @@
+.back-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Container holding both forms */
+.register-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 70%;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+}
+
+/* Blue section (left side) */
+.sign-in-container1 {
+  background: #27a8eec1;
+  color: white;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* White section (right side) */
+.sign-up-container1 {
+  background: #fff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Sign-in button styling */
+.sign-in-btn {
+  background-color: white;
+  color: #3a6ff7;
+  border: 2px solid white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Button hover effect */
+.sign-in-btn:hover {
+  background-color: #3a6ff7;
+  color: white;
+}
+
+/* Input fields styling */
+/* .sign-up-container1 form input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  color: black;
+} */
+
+/* Sign-up button styling */
+.sign-up-btn {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #27a8eec1;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+}
+/* Button hover effect */
+.sign-up-btn:hover {
+  background-color: #2a5bd1;
+  box-shadow: 0 5px 10px rgba(42, 83, 184, 0.4);
+}
+
+.sign-up-container1 form {
+  text-align: center;
+}
